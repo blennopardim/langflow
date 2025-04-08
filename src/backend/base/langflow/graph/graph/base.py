@@ -44,7 +44,7 @@ from langflow.services.deps import get_chat_service, get_tracing_service
 from langflow.utils.async_helpers import run_until_complete
 
 if TYPE_CHECKING:
-    from collections.abc import Callable, Generator, Iterable, AsyncGenerator
+    from collections.abc import AsyncGenerator, Callable, Generator, Iterable
 
     from sqlmodel.ext.asyncio.session import AsyncSession
 
